@@ -22,7 +22,7 @@ class AddBookViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        navigationItem.title = "Add Book Title"
+        navigationItem.title = "Add A Book"
     }
     
     @IBAction func saveAddBookTitleButton(sender: UIBarButtonItem) {

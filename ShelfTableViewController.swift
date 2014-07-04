@@ -57,12 +57,6 @@ class ShelfTableViewController: UITableViewController, AddShelfViewControllerDel
         
         return cell
     }
-
-//    // Override to support conditional editing of the table view.
-//    override func tableView(tableView: UITableView?, canEditRowAtIndexPath indexPath: NSIndexPath?) -> Bool {
-//
-//        return true
-//    }
     
     // Override to support editing the table view
     override func tableView(tableView: UITableView?, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath?) {
@@ -82,14 +76,6 @@ class ShelfTableViewController: UITableViewController, AddShelfViewControllerDel
         shelves.removeAtIndex(sourceIndexPath.row)
         shelves.insert(cellToMove, atIndex: destinationIndexPath.row)
     }
-
-    
-//    // Override to support conditional rearranging of the table view.
-//    override func tableView(tableView: UITableView?, canMoveRowAtIndexPath indexPath: NSIndexPath?) -> Bool {
-//        // Return NO if you do not want the item to be re-orderable.
-//        return true
-//    }
-    
     
     // #pragma mark - Navigation
 

@@ -13,18 +13,19 @@ import Foundation
 class Book: NSObject {
     
     var bookTitle = String()
-//    var shelf:Shelf = ""
+    var shelf:Shelf?
+    
     
     init(bookTitle: String) {
         self.bookTitle = bookTitle
     }
 
 //    func enshelf(shelf: Shelf) {
-//        shelf.books.append(bookTitle)
+//        shelf.books.append(self)
+//        self.shelf = shelf
 //    }
 //    
 //    func unshelf(shelf: Shelf, index:Int) {
 //        shelf.books.removeAtIndex(index)
-//        
 //    }
 }

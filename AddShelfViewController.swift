@@ -22,7 +22,7 @@ class AddShelfViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
             
         super.viewDidLoad()
-        navigationItem.title = "Add Shelf Title"
+        navigationItem.title = "Add A Shelf"
     }
     
     @IBAction func saveAddShelfTitleButton(sender: UIBarButtonItem) {

@@ -36,7 +36,7 @@ class LibraryTableViewController: UITableViewController, AddLibraryViewControlle
 //            i++
 //        }
 //    }
-
+    
     func entireLibrary() {
         
         let library1 = Library(libraryName: "Central Library")
@@ -59,6 +59,7 @@ class LibraryTableViewController: UITableViewController, AddLibraryViewControlle
         
         // Art History
         let book1 = Book(bookTitle: "Beautiful Geometry")
+//        book1.enshelf(shelf1)
         let book2 = Book(bookTitle: "Edward Hopper Paints His World")
         let book3 = Book(bookTitle: "History of Florence in Painting")
         let book4 = Book(bookTitle: "Michelangelo: His Life and Work")
@@ -99,7 +100,7 @@ class LibraryTableViewController: UITableViewController, AddLibraryViewControlle
         let book33 = Book(bookTitle: "Legacy: A Novel")
         let book34 = Book(bookTitle: "Rich Girl Problems")
         let book35 = Book(bookTitle: "Silver Bullets")
-
+        
         libraries[0].shelves[0].books = [book1, book2, book3, book4, book5]
         libraries[0].shelves[1].books = [book6, book7, book8, book9, book10]
         libraries[0].shelves[2].books = [book11, book12, book13, book14, book15]
@@ -109,7 +110,9 @@ class LibraryTableViewController: UITableViewController, AddLibraryViewControlle
         
         libraries[2].shelves[0].books = [book26, book27, book28, book29, book30]
         libraries[2].shelves[1].books = [book31, book32, book33, book34, book35]
-
+        
+//        book1.unshelf(shelf1, index: 0)
+        
         // For reportAllBooks()
 //        shelves += [shelf1, shelf2, shelf3, shelf4, shelf5, shelf6, shelf7]
 //        books += [book1, book2, book3, book4, book5, book6, book7, book8, book9, book10, book11, book12, book13, book14, book15, book16, book17, book18, book19, book20, book21, book22, book23, book24, book25, book26, book27, book28, book29, book30, book31, book32, book33, book34, book35]
@@ -148,12 +151,6 @@ class LibraryTableViewController: UITableViewController, AddLibraryViewControlle
         return cell
     }
 
-//    // Override to support conditional editing of the table view.
-//    override func tableView(tableView: UITableView?, canEditRowAtIndexPath indexPath: NSIndexPath?) -> Bool {
-//
-//        return true
-//    }
-    
     // Override to support editing the table view
     override func tableView(tableView: UITableView?, commitEditingStyle editingStyle: UITableViewCellEditingStyle, forRowAtIndexPath indexPath: NSIndexPath?) {
         
@@ -164,24 +161,6 @@ class LibraryTableViewController: UITableViewController, AddLibraryViewControlle
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
-
-    // Override to support rearranging the table view.
-//    override func tableView(tableView: UITableView!, editingStyleForRowAtIndexPath indexPath: NSIndexPath!) -> UITableViewCellEditingStyle {
-//        if (indexPath.row < libraries.count) {
-//            return UITableViewCellEditingStyle.Delete
-//        } else {
-//            return UITableViewCellEditingStyle.Insert
-//        }
-//    }
-
-//    // Override to support conditional rearranging of the table view.
-//    override func tableView(tableView: UITableView?, canMoveRowAtIndexPath indexPath: NSIndexPath?) -> Bool {
-//        if indexPath!.row == libraries.count {
-//            return false
-//        } else {
-//            return true
-//        }
-//    }
     
     // Override to support rearranging the table view.
     override func tableView(tableView: UITableView!, moveRowAtIndexPath sourceIndexPath: NSIndexPath!, toIndexPath destinationIndexPath:NSIndexPath!) {

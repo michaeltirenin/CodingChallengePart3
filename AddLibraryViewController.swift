@@ -22,7 +22,7 @@ class AddLibraryViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        navigationItem.title = "Add Library Title"
+        navigationItem.title = "Add A Library"
     }
     
     @IBAction func saveAddLibraryNameButton(sender: UIBarButtonItem) {

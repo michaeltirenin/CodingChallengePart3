@@ -18,22 +18,5 @@ class Shelf: NSObject {
     init(shelfName: String) {
         self.shelfName = shelfName
         self.books = Book[]()
-    }
-
-    //    func setShelf(shelf name: String) -> Shelf {
-    //
-    //        var shelf = Shelf()
-    //        shelf.shelfName = name
-    //        shelf.books = String[]()
-    //
-    //        return shelf
-    //    }
-    
-//    func addBookToShelf(bookTitle: String) {
-//        var book = Book[]()
-//        book += []
-//        book.BookManager.enshelf(self)
-//        
-//    }
-    
+    }    
 }
