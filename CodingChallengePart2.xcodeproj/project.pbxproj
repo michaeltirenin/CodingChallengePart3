@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F231D37E1963925800AF0190 /* AddBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F231D37D1963925800AF0190 /* AddBookViewController.swift */; };
 		F2A292741956C62E0035F8DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A292731956C62E0035F8DB /* AppDelegate.swift */; };
-		F2A292761956C62E0035F8DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A292751956C62E0035F8DB /* ViewController.swift */; };
 		F2A292791956C62E0035F8DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A292771956C62E0035F8DB /* Main.storyboard */; };
 		F2A2927B1956C62E0035F8DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A2927A1956C62E0035F8DB /* Images.xcassets */; };
 		F2A292871956C62E0035F8DB /* CodingChallengePart2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A292861956C62E0035F8DB /* CodingChallengePart2Tests.swift */; };
+		F2A292911956C7430035F8DB /* LibraryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A292901956C7430035F8DB /* LibraryTableViewController.swift */; };
+		F2A292931956C7600035F8DB /* ShelfTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A292921956C7600035F8DB /* ShelfTableViewController.swift */; };
+		F2A292951956C7750035F8DB /* BookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A292941956C7750035F8DB /* BookTableViewController.swift */; };
+		F2A292991956C7BD0035F8DB /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A292981956C7BD0035F8DB /* Book.swift */; };
+		F2A2929B1956C7C90035F8DB /* Shelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A2929A1956C7C90035F8DB /* Shelf.swift */; };
+		F2A2929E1956C7E30035F8DB /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A2929D1956C7E30035F8DB /* Library.swift */; };
+		F2BC63A31963C9DF00BBA80C /* AddShelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BC63A21963C9DF00BBA80C /* AddShelfViewController.swift */; };
+		F2DE47BE1957A1A500FEE13D /* EditBookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DE47BD1957A1A500FEE13D /* EditBookViewController.swift */; };
+		F2F6A9521963CC6400F0365E /* AddLibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F6A9511963CC6400F0365E /* AddLibraryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,15 +34,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F231D37D1963925800AF0190 /* AddBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBookViewController.swift; sourceTree = "<group>"; };
 		F2A2926E1956C62E0035F8DB /* CodingChallengePart2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingChallengePart2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A292721956C62E0035F8DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2A292731956C62E0035F8DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2A292751956C62E0035F8DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F2A292781956C62E0035F8DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2A2927A1956C62E0035F8DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		F2A292801956C62E0035F8DB /* CodingChallengePart2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingChallengePart2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A292851956C62E0035F8DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2A292861956C62E0035F8DB /* CodingChallengePart2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingChallengePart2Tests.swift; sourceTree = "<group>"; };
+		F2A292901956C7430035F8DB /* LibraryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryTableViewController.swift; sourceTree = "<group>"; };
+		F2A292921956C7600035F8DB /* ShelfTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShelfTableViewController.swift; sourceTree = "<group>"; };
+		F2A292941956C7750035F8DB /* BookTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewController.swift; sourceTree = "<group>"; };
+		F2A292981956C7BD0035F8DB /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		F2A2929A1956C7C90035F8DB /* Shelf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shelf.swift; sourceTree = "<group>"; };
+		F2A2929D1956C7E30035F8DB /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
+		F2BC63A21963C9DF00BBA80C /* AddShelfViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddShelfViewController.swift; sourceTree = "<group>"; };
+		F2DE47BD1957A1A500FEE13D /* EditBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditBookViewController.swift; sourceTree = "<group>"; };
+		F2F6A9511963CC6400F0365E /* AddLibraryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLibraryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,9 +93,9 @@
 		F2A292701956C62E0035F8DB /* CodingChallengePart2 */ = {
 			isa = PBXGroup;
 			children = (
-				F2A292731956C62E0035F8DB /* AppDelegate.swift */,
-				F2A292751956C62E0035F8DB /* ViewController.swift */,
-				F2A292771956C62E0035F8DB /* Main.storyboard */,
+				F2A2929C1956C7CE0035F8DB /* Models */,
+				F2A292971956C79D0035F8DB /* Views */,
+				F2A292961956C7830035F8DB /* Controllers */,
 				F2A2927A1956C62E0035F8DB /* Images.xcassets */,
 				F2A292711956C62E0035F8DB /* Supporting Files */,
 			);
@@ -87,6 +105,7 @@
 		F2A292711956C62E0035F8DB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F2A292731956C62E0035F8DB /* AppDelegate.swift */,
 				F2A292721956C62E0035F8DB /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -107,6 +126,39 @@
 				F2A292851956C62E0035F8DB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2A292961956C7830035F8DB /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F2A292901956C7430035F8DB /* LibraryTableViewController.swift */,
+				F2F6A9511963CC6400F0365E /* AddLibraryViewController.swift */,
+				F2A292921956C7600035F8DB /* ShelfTableViewController.swift */,
+				F2BC63A21963C9DF00BBA80C /* AddShelfViewController.swift */,
+				F2A292941956C7750035F8DB /* BookTableViewController.swift */,
+				F2DE47BD1957A1A500FEE13D /* EditBookViewController.swift */,
+				F231D37D1963925800AF0190 /* AddBookViewController.swift */,
+			);
+			name = Controllers;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		F2A292971956C79D0035F8DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2A292771956C62E0035F8DB /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		F2A2929C1956C7CE0035F8DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F2A2929D1956C7E30035F8DB /* Library.swift */,
+				F2A2929A1956C7C90035F8DB /* Shelf.swift */,
+				F2A292981956C7BD0035F8DB /* Book.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,6 +210,7 @@
 				TargetAttributes = {
 					F2A2926D1956C62E0035F8DB = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = C65MMLEB3C;
 					};
 					F2A2927F1956C62E0035F8DB = {
 						CreatedOnToolsVersion = 6.0;
@@ -208,8 +261,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2A292761956C62E0035F8DB /* ViewController.swift in Sources */,
+				F2A2929B1956C7C90035F8DB /* Shelf.swift in Sources */,
+				F2F6A9521963CC6400F0365E /* AddLibraryViewController.swift in Sources */,
+				F2A2929E1956C7E30035F8DB /* Library.swift in Sources */,
+				F2A292951956C7750035F8DB /* BookTableViewController.swift in Sources */,
+				F2A292911956C7430035F8DB /* LibraryTableViewController.swift in Sources */,
+				F2A292931956C7600035F8DB /* ShelfTableViewController.swift in Sources */,
+				F2BC63A31963C9DF00BBA80C /* AddShelfViewController.swift in Sources */,
+				F2A292991956C7BD0035F8DB /* Book.swift in Sources */,
 				F2A292741956C62E0035F8DB /* AppDelegate.swift in Sources */,
+				F231D37E1963925800AF0190 /* AddBookViewController.swift in Sources */,
+				F2DE47BE1957A1A500FEE13D /* EditBookViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +387,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CodingChallengePart2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -336,6 +399,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = CodingChallengePart2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -397,6 +461,7 @@
 				F2A2928C1956C62E0035F8DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2A2928D1956C62E0035F8DB /* Build configuration list for PBXNativeTarget "CodingChallengePart2Tests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +470,7 @@
 				F2A2928F1956C62E0035F8DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
