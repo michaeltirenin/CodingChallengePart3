@@ -11,7 +11,7 @@
 		F2A292741956C62E0035F8DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A292731956C62E0035F8DB /* AppDelegate.swift */; };
 		F2A292791956C62E0035F8DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2A292771956C62E0035F8DB /* Main.storyboard */; };
 		F2A2927B1956C62E0035F8DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2A2927A1956C62E0035F8DB /* Images.xcassets */; };
-		F2A292871956C62E0035F8DB /* CodingChallengePart2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A292861956C62E0035F8DB /* CodingChallengePart2Tests.swift */; };
+		F2A292871956C62E0035F8DB /* CodingChallengePart3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A292861956C62E0035F8DB /* CodingChallengePart3Tests.swift */; };
 		F2A292911956C7430035F8DB /* LibraryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A292901956C7430035F8DB /* LibraryTableViewController.swift */; };
 		F2A292931956C7600035F8DB /* ShelfTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A292921956C7600035F8DB /* ShelfTableViewController.swift */; };
 		F2A292951956C7750035F8DB /* BookTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A292941956C7750035F8DB /* BookTableViewController.swift */; };
@@ -29,20 +29,20 @@
 			containerPortal = F2A292661956C62E0035F8DB /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F2A2926D1956C62E0035F8DB;
-			remoteInfo = CodingChallengePart2;
+			remoteInfo = CodingChallengePart3;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F231D37D1963925800AF0190 /* AddBookViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBookViewController.swift; sourceTree = "<group>"; };
-		F2A2926E1956C62E0035F8DB /* CodingChallengePart2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingChallengePart2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A2926E1956C62E0035F8DB /* CodingChallengePart3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodingChallengePart3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A292721956C62E0035F8DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2A292731956C62E0035F8DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2A292781956C62E0035F8DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F2A2927A1956C62E0035F8DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F2A292801956C62E0035F8DB /* CodingChallengePart2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingChallengePart2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A292801956C62E0035F8DB /* CodingChallengePart3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodingChallengePart3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2A292851956C62E0035F8DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F2A292861956C62E0035F8DB /* CodingChallengePart2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingChallengePart2Tests.swift; sourceTree = "<group>"; };
+		F2A292861956C62E0035F8DB /* CodingChallengePart3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodingChallengePart3Tests.swift; sourceTree = "<group>"; };
 		F2A292901956C7430035F8DB /* LibraryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibraryTableViewController.swift; sourceTree = "<group>"; };
 		F2A292921956C7600035F8DB /* ShelfTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShelfTableViewController.swift; sourceTree = "<group>"; };
 		F2A292941956C7750035F8DB /* BookTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookTableViewController.swift; sourceTree = "<group>"; };
@@ -75,8 +75,8 @@
 		F2A292651956C62E0035F8DB = {
 			isa = PBXGroup;
 			children = (
-				F2A292701956C62E0035F8DB /* CodingChallengePart2 */,
-				F2A292831956C62E0035F8DB /* CodingChallengePart2Tests */,
+				F2A292701956C62E0035F8DB /* CodingChallengePart3 */,
+				F2A292831956C62E0035F8DB /* CodingChallengePart3Tests */,
 				F2A2926F1956C62E0035F8DB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,13 +84,13 @@
 		F2A2926F1956C62E0035F8DB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F2A2926E1956C62E0035F8DB /* CodingChallengePart2.app */,
-				F2A292801956C62E0035F8DB /* CodingChallengePart2Tests.xctest */,
+				F2A2926E1956C62E0035F8DB /* CodingChallengePart3.app */,
+				F2A292801956C62E0035F8DB /* CodingChallengePart3Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F2A292701956C62E0035F8DB /* CodingChallengePart2 */ = {
+		F2A292701956C62E0035F8DB /* CodingChallengePart3 */ = {
 			isa = PBXGroup;
 			children = (
 				F2A2929C1956C7CE0035F8DB /* Models */,
@@ -99,7 +99,7 @@
 				F2A2927A1956C62E0035F8DB /* Images.xcassets */,
 				F2A292711956C62E0035F8DB /* Supporting Files */,
 			);
-			path = CodingChallengePart2;
+			path = CodingChallengePart3;
 			sourceTree = "<group>";
 		};
 		F2A292711956C62E0035F8DB /* Supporting Files */ = {
@@ -111,13 +111,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F2A292831956C62E0035F8DB /* CodingChallengePart2Tests */ = {
+		F2A292831956C62E0035F8DB /* CodingChallengePart3Tests */ = {
 			isa = PBXGroup;
 			children = (
-				F2A292861956C62E0035F8DB /* CodingChallengePart2Tests.swift */,
+				F2A292861956C62E0035F8DB /* CodingChallengePart3Tests.swift */,
 				F2A292841956C62E0035F8DB /* Supporting Files */,
 			);
-			path = CodingChallengePart2Tests;
+			path = CodingChallengePart3Tests;
 			sourceTree = "<group>";
 		};
 		F2A292841956C62E0035F8DB /* Supporting Files */ = {
@@ -164,9 +164,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F2A2926D1956C62E0035F8DB /* CodingChallengePart2 */ = {
+		F2A2926D1956C62E0035F8DB /* CodingChallengePart3 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2A2928A1956C62E0035F8DB /* Build configuration list for PBXNativeTarget "CodingChallengePart2" */;
+			buildConfigurationList = F2A2928A1956C62E0035F8DB /* Build configuration list for PBXNativeTarget "CodingChallengePart3" */;
 			buildPhases = (
 				F2A2926A1956C62E0035F8DB /* Sources */,
 				F2A2926B1956C62E0035F8DB /* Frameworks */,
@@ -176,14 +176,14 @@
 			);
 			dependencies = (
 			);
-			name = CodingChallengePart2;
-			productName = CodingChallengePart2;
-			productReference = F2A2926E1956C62E0035F8DB /* CodingChallengePart2.app */;
+			name = CodingChallengePart3;
+			productName = CodingChallengePart3;
+			productReference = F2A2926E1956C62E0035F8DB /* CodingChallengePart3.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F2A2927F1956C62E0035F8DB /* CodingChallengePart2Tests */ = {
+		F2A2927F1956C62E0035F8DB /* CodingChallengePart3Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F2A2928D1956C62E0035F8DB /* Build configuration list for PBXNativeTarget "CodingChallengePart2Tests" */;
+			buildConfigurationList = F2A2928D1956C62E0035F8DB /* Build configuration list for PBXNativeTarget "CodingChallengePart3Tests" */;
 			buildPhases = (
 				F2A2927C1956C62E0035F8DB /* Sources */,
 				F2A2927D1956C62E0035F8DB /* Frameworks */,
@@ -194,9 +194,9 @@
 			dependencies = (
 				F2A292821956C62E0035F8DB /* PBXTargetDependency */,
 			);
-			name = CodingChallengePart2Tests;
-			productName = CodingChallengePart2Tests;
-			productReference = F2A292801956C62E0035F8DB /* CodingChallengePart2Tests.xctest */;
+			name = CodingChallengePart3Tests;
+			productName = CodingChallengePart3Tests;
+			productReference = F2A292801956C62E0035F8DB /* CodingChallengePart3Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F2A292691956C62E0035F8DB /* Build configuration list for PBXProject "CodingChallengePart2" */;
+			buildConfigurationList = F2A292691956C62E0035F8DB /* Build configuration list for PBXProject "CodingChallengePart3" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,8 +231,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F2A2926D1956C62E0035F8DB /* CodingChallengePart2 */,
-				F2A2927F1956C62E0035F8DB /* CodingChallengePart2Tests */,
+				F2A2926D1956C62E0035F8DB /* CodingChallengePart3 */,
+				F2A2927F1956C62E0035F8DB /* CodingChallengePart3Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -279,7 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2A292871956C62E0035F8DB /* CodingChallengePart2Tests.swift in Sources */,
+				F2A292871956C62E0035F8DB /* CodingChallengePart3Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +288,7 @@
 /* Begin PBXTargetDependency section */
 		F2A292821956C62E0035F8DB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F2A2926D1956C62E0035F8DB /* CodingChallengePart2 */;
+			target = F2A2926D1956C62E0035F8DB /* CodingChallengePart3 */;
 			targetProxy = F2A292811956C62E0035F8DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -388,9 +388,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = CodingChallengePart2/Info.plist;
+				INFOPLIST_FILE = CodingChallengePart3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CodingChallengePart3;
 			};
 			name = Debug;
 		};
@@ -400,16 +400,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				INFOPLIST_FILE = CodingChallengePart2/Info.plist;
+				INFOPLIST_FILE = CodingChallengePart3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CodingChallengePart3;
 			};
 			name = Release;
 		};
 		F2A2928E1956C62E0035F8DB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CodingChallengePart2.app/CodingChallengePart2";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CodingChallengePart3.app/CodingChallengePart3";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -418,10 +418,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CodingChallengePart2Tests/Info.plist;
+				INFOPLIST_FILE = CodingChallengePart3Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CodingChallengePart3Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -429,15 +429,15 @@
 		F2A2928F1956C62E0035F8DB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CodingChallengePart2.app/CodingChallengePart2";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CodingChallengePart3.app/CodingChallengePart3";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = CodingChallengePart2Tests/Info.plist;
+				INFOPLIST_FILE = CodingChallengePart3Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				METAL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = CodingChallengePart3Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -445,7 +445,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F2A292691956C62E0035F8DB /* Build configuration list for PBXProject "CodingChallengePart2" */ = {
+		F2A292691956C62E0035F8DB /* Build configuration list for PBXProject "CodingChallengePart3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2A292881956C62E0035F8DB /* Debug */,
@@ -454,7 +454,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2A2928A1956C62E0035F8DB /* Build configuration list for PBXNativeTarget "CodingChallengePart2" */ = {
+		F2A2928A1956C62E0035F8DB /* Build configuration list for PBXNativeTarget "CodingChallengePart3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2A2928B1956C62E0035F8DB /* Debug */,
@@ -463,7 +463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F2A2928D1956C62E0035F8DB /* Build configuration list for PBXNativeTarget "CodingChallengePart2Tests" */ = {
+		F2A2928D1956C62E0035F8DB /* Build configuration list for PBXNativeTarget "CodingChallengePart3Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F2A2928E1956C62E0035F8DB /* Debug */,
