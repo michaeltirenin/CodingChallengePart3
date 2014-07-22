@@ -12,25 +12,25 @@ class EditBookViewController: UIViewController, UITextFieldDelegate {
     
     var book = Book(bookTitle: "bookTitleInEditBookVC")
 
-    @IBOutlet var editBookTextField: UITextField
+    @IBOutlet var editBookTextField: UITextField?
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
         navigationItem.title = "Edit Book Title"
-        editBookTextField.text = book.bookTitle
+        editBookTextField!.text = book.bookTitle
     }
 
     @IBAction func saveBookTitleButton(sender: UIBarButtonItem) {
 
-        book.bookTitle = editBookTextField.text
-        editBookTextField.resignFirstResponder()
+        book.bookTitle = editBookTextField!.text
+        editBookTextField!.resignFirstResponder()
         navigationController.popViewControllerAnimated(true)
     }
     
     @IBAction func cancelBookTitleButton(sender: UIBarButtonItem) {
         
-        editBookTextField.resignFirstResponder()
+        editBookTextField!.resignFirstResponder()
         navigationController.popViewControllerAnimated(true)
     }
     

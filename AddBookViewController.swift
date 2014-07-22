@@ -17,7 +17,7 @@ class AddBookViewController: UIViewController, UITextFieldDelegate {
     var addBookDelegate: AddBookViewControllerDelegate! = nil
     var book = Book(bookTitle: "bookTitleInAddBookVC")
         
-    @IBOutlet var addBookTextField: UITextField
+    @IBOutlet var addBookTextField: UITextField?
     
     override func viewDidLoad() {
         
@@ -27,14 +27,14 @@ class AddBookViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func saveAddBookTitleButton(sender: UIBarButtonItem) {
         
-        book.bookTitle = addBookTextField.text
-        addBookTextField.resignFirstResponder()
+        book.bookTitle = addBookTextField!.text
+        addBookTextField!.resignFirstResponder()
         addBookDelegate.addBook(book)
     }
     
     @IBAction func cancelAddBookTitleButton(sender: UIBarButtonItem) {
         
-        addBookTextField.resignFirstResponder()
+        addBookTextField!.resignFirstResponder()
         navigationController.popViewControllerAnimated(true)
     }
     

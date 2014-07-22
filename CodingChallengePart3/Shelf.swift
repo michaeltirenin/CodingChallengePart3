@@ -13,10 +13,10 @@ import Foundation
 class Shelf: NSObject {
     
     var shelfName = String()
-    var books = Book[]()
+    var books = [Book]()
     
     init(shelfName: String) {
         self.shelfName = shelfName
-        self.books = Book[]()
+        self.books = [Book]()
     }    
 }

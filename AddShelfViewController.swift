@@ -17,7 +17,7 @@ class AddShelfViewController: UIViewController, UITextFieldDelegate {
     var addShelfDelegate: AddShelfViewControllerDelegate! = nil
     var shelf = Shelf(shelfName: "shelfNameInAddShelfVC")
     
-    @IBOutlet var addShelfTextField: UITextField
+    @IBOutlet var addShelfTextField: UITextField?
         
     override func viewDidLoad() {
             
@@ -27,14 +27,14 @@ class AddShelfViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func saveAddShelfTitleButton(sender: UIBarButtonItem) {
             
-        shelf.shelfName = addShelfTextField.text
-        addShelfTextField.resignFirstResponder()
+        shelf.shelfName = addShelfTextField!.text
+        addShelfTextField!.resignFirstResponder()
         addShelfDelegate.addShelf(shelf)
     }
         
     @IBAction func cancelAddShelfTitleButton(sender: UIBarButtonItem) {
             
-        addShelfTextField.resignFirstResponder()
+        addShelfTextField!.resignFirstResponder()
         navigationController.popViewControllerAnimated(true)
     }
         

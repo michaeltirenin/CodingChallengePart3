@@ -17,7 +17,7 @@ class AddLibraryViewController: UIViewController, UITextFieldDelegate {
     var addLibraryDelegate: AddLibraryViewControllerDelegate! = nil
     var library = Library(libraryName: "libraryNameInAddLibraryVC")
     
-    @IBOutlet var addLibraryTextField: UITextField
+    @IBOutlet var addLibraryTextField: UITextField?
     
     override func viewDidLoad() {
         
@@ -27,14 +27,14 @@ class AddLibraryViewController: UIViewController, UITextFieldDelegate {
     
     @IBAction func saveAddLibraryNameButton(sender: UIBarButtonItem) {
         
-        library.libraryName = addLibraryTextField.text
-        addLibraryTextField.resignFirstResponder()
+        library.libraryName = addLibraryTextField!.text
+        addLibraryTextField!.resignFirstResponder()
         addLibraryDelegate.addLibrary(library)
     }
     
     @IBAction func cancelAddLibraryNameButton(sender: UIBarButtonItem) {
         
-        addLibraryTextField.resignFirstResponder()
+        addLibraryTextField!.resignFirstResponder()
         navigationController.popViewControllerAnimated(true)
     }
     

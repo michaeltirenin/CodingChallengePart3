@@ -10,18 +10,18 @@
 
 import Foundation
 
-var libraries = Library[]()
-var shelves = Shelf[]()
-var books = Book[]()
+var libraries = [Library]()
+var shelves = [Shelf]()
+var books = [Book]()
 
 class Library: NSObject {
 
     var libraryName = String()
-    var shelves = Shelf[]()
+    var shelves = [Shelf]()
 
     init(libraryName: String) {
         self.libraryName = libraryName
-        var shelves = Shelf[]()
+        var shelves = [Shelf]()
     }
 
     // The library should have a method to report all books it contains.

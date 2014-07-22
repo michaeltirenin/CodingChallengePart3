@@ -146,7 +146,8 @@ class LibraryTableViewController: UITableViewController, AddLibraryViewControlle
         let cell: UITableViewCell = tableView!.dequeueReusableCellWithIdentifier("LibraryCell", forIndexPath: indexPath) as UITableViewCell
         
         let cellLibrary = libraries[indexPath!.row]
-        cell.text = cellLibrary.libraryName
+//        cell.text = cellLibrary.libraryName
+        cell.textLabel.text = cellLibrary.libraryName
 
         return cell
     }
